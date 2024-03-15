@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254a8.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="container"></div>
+            <div class="container">
+                <nav>
+                    <img src="images/logo.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Service">Service</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX designer</p>
+                    <h1>Hi I am <span>Nigus</span><br> Amare from Ethiopia</h1>
+
+                </div>
+            </div>
+        </div>
+        <!---------About----------------->
+        <div id ="About">
+            <div class="container">
+                <div class="row">
+                  <div class ="about-col-1">
+                    <img src="images/user.png">
+                  </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Nigus Amare is an accomplished Information Technology
+                         and Software Engineer with expertise in PHP, HTML, CSS,
+                          JavaScript, and Python. With a wealth of experience in 
+                          these programming languages, Nigus has honed his skills 
+                          in developing dynamic and interactive websites and applications. 
+                          His proficiency in PHP allows him to create robust and scalable 
+                          back-end systems, while his knowledge of HTML, CSS, and JavaScript 
+                          enables him to craft visually appealing and user-friendly front-end 
+                          interfaces. Additionally, Nigus's familiarity with Python empowers 
+                          him to tackle various software engineering challenges and implement 
+                          efficient solutions. With his comprehensive skill set,
+                           Nigus Amare is a valuable asset in the field of Information Technology 
+                           and Software Engineering.</p>
+                           <div class="tab-title">
+                            <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links active-links"onclick="opentab('Experiance')">Experience</p>
+                            <p class="tab-links active-links" onclick="opentab('Education')">Education</p>
+                           </div>
+                           <div class="tab-contents active-tab" id ="Skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Desinger web/ app interfaces</li>
+                                <li><span>Web Development</span><br>Web app development</li>
+                                <li><span>hardware/ software</span><br>hardware/ software integration</li>
+                                <li><span>Information Technology</span><br>Information Technology Specialist</li>
+                            </ul>
+                           </div>
+                           <div class="tab-contents active-tab" id="Experience">
+                            <ul>
+                                <li><span>october 2022G.C - current</span><br>CEO in ZTN Tech </li>
+                                <li><span>october 2023G.C</span><br>python programming</li>
+                                <li><span>october 2023G.C</span><br>python with Django</li>
+                                <li><span>october 2023G.C</span><br>python pandas </li>
+                                
+                            </ul>
+                           </div>
+                           <div class="tab-contents active-tab" id="Education">
+                            <ul>
+                                <li><span>may 2022G.C</span><br>BSC in Information Technology</li>
+                            </ul>
+                           </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-------------services--------------------->
+        <div id ="Service">
+            <div class="container">
+                <h1 class="sub-title">my services</h1>
+                <div class="service-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2><u>Web UI/UX Design</u></h2>
+                        <p>I develop web design in designing visually stunning websites at 
+                            affordable prices to meet your unique needs.</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2><u>graphic design</u></h2>
+                        <p>I design in designing visually stunning graphics at 
+                            affordable prices to meet your unique needs.</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fab fa-app-store"></i>
+                        <h2><u>hardware and software</u></h2>
+                        <p>I design and integrate in designing visually stunning at 
+                            affordable prices to meet your unique needs.</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------portfolio----------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title"> My Work</h1> 
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png"></div>
+                        <div class="layer">
+                            <h3>Tour and Travel App</h3>
+                            <p>Connecting traveler and tourist in Ethiopia
+                                copy and open new tab https://zegelila.000webhostapp.com/
+                            </p>
+                            <a href="#"><i class="fa-duotone fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="Work">
+                        <img src="images/work-2.jpg"></div>
+                        <div class="layer">
+                            <h3>AI based Smart Blind Stick </h3>
+                            <p>Hleps visually impaired people when move from one place to other 
+                                by detecting obstacle and wireless charging</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="Work">
+                        <img src="images/work3.png"></div>
+                        <div class="layer">
+                            <h3>IoT based Smart irrigation monitoring and controlling systems </h3>
+                            <p>hleps visually impaired people when move from one place to other 
+                                by detecting obstacle and wireless charging</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="btn">see more</a>
+            </div>
+        </div>
+        <!-------------contact------------->
+        <div id="contact">
+          <div class="container">
+            <div class="row">
+                <div class="contact_right">
+                    
+                    <h1 class="sub-title">Contact me</h1>
+                    <div class="Social-icons">
+                    <p><i class="fas fa-paper-plane"></i>nigusamare5@gmail.com</p>
+                    <p1><i class="fas fa-phone"></i>0904351261</p1>
+                    </div>
+                    <a href="images/Resume123456.pdf" class="btn2">Download CV</a>
+                 <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="Email" placeholder="your email" required>
+                    <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn2">submit</button>
+                   </form> 
+                   <span id="msg"></span>
+                   <p> </p>
+                 </div>
+                <div class="contact_left">
+                 
+                 <div class="Social-icons">
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-telegram">visit Facebook</i></a> 
+                  <a href="http://www.linkedin.com/in/nigus-amare"><i class="fa-brands fa-linkedin">visit linkedin</i></a> 
+                  <a href="https://www.Telegram.com"><i class="fa-brands fa-telegram">visit Telegram</i></a>  
+                </div>
+                </div>   
+            </div>  
+          </div>  
+          <div class="copyright">
+            <p>Copyright @nigus-amare portfolio</p>
+        </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classlist.remove("active-link")
+
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classlist.remove("active-tab")
+                }
+                event.currentTarget.classlist.add("active-link");
+                document.getElementById(tabname).classlist.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right ="0";
+            }
+            function closemenu(){
+                sidemenu.style.right ="-200px";
+            }
+        </script>
+
+        <script>
+          const scriptURL = 'https://script.google.com/macros/s/AKfycbzNRIYGpX4aA26NKunQbjghqOpLin0of6zO0sIERXUHGkhd6gIKRoUOv4JirnGA_Q-S0g/exec'
+          const form = document.forms['submit-to-google-sheet']
+          const msg= document.getElementById("msg")
+
+          form.addEventListener('submit', e => {
+           e.preventDefault()
+           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+    </body>
+</html>
